@@ -1,0 +1,102 @@
+#pari-perso {
+
+    background-image    : url("../img/paris-personnalises.png"), linear-gradient(to top, #2F2359, #4C3991);
+    background-repeat   : no-repeat;
+    background-position : center;
+    min-height          : 819px;
+    color               : var(--white);
+}
+
+#pari-perso > h1 {
+
+    font-weight : 700;
+    text-align  : center;
+    margin-top  : 1.2em;
+    font-size   : 2.28em;
+    position    : relative;
+}
+
+#pari-perso hr {
+    background-color : var(--white);
+}
+
+#pari-perso .two-columns {
+
+    display               : grid;
+    grid-template-columns : repeat(2, 1fr);
+    margin-top            : 5.1em;
+    width                 : 75%;
+    column-gap            : 1em;
+}
+
+#pari-perso .title {
+    display     : flex;
+    align-items : center;
+}
+
+#pari-perso .flex-divider {
+    margin-left  : 3.5em;
+    margin-right : 0;
+}
+
+#pari-perso .two-columns h2 {
+
+    font-size   : 1.15em;
+    display     : inline-block;
+    font-weight : 600;
+}
+
+#pari-perso .two-columns .new {
+    background-color : var(--white);
+    color            : var(--gradient-dark);
+    border-radius    : 1em;
+    padding          : .1em 1.2em;
+    font-size        : .9em;
+}
+
+#pari-perso p {
+    font-size   : .9em;
+    line-height : 1.5;
+    width       : 85%;
+}
+
+#pari-perso p .small {
+    font-size   : .75em;
+    font-weight : 300;
+}
+
+#pari-perso ol {
+    max-width     : 350px;
+    counter-reset : my-awesome-counter;
+    list-style    : none;
+    padding-left  : 40px;
+}
+
+#pari-perso ol li {
+    margin            : 0 0 1em;
+    counter-increment : my-awesome-counter;
+    position          : relative;
+    font-size         : .95em;
+}
+
+#pari-perso ol li::before {
+    content       : counter(my-awesome-counter);
+    color         : var(--gradient-dark);
+    font-size     : 1.5rem;
+    font-weight   : 700;
+    position      : absolute;
+    --size        : 44px;
+    left          : calc(-1 * var(--size) - 16px);
+    line-height   : var(--size);
+    width         : var(--size);
+    height        : var(--size);
+    top           : 0;
+    background    : var(--white);
+    border-radius : 50%;
+    text-align    : center;
+}
+
+#pari-perso .button {
+    margin-top : 8em;
+    font-size  : 1.1em;
+}

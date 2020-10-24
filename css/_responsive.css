@@ -1,0 +1,142 @@
+@media (max-width : 1250px) {
+    #landblock #nav-links {
+        display : none;
+    }
+
+    #landblock {
+        background-image : linear-gradient(to bottom right, var(--gradient-dark), var(--gradient-light));
+    }
+
+    #landblock .content {
+        width  : 80%;
+        margin : -4em auto 0;
+    }
+
+    #explications #what-to-do {
+        display        : flex;
+        flex-direction : column;
+    }
+
+    #explications #what-to-do .vertical-side {
+        margin-top : -5em;
+        text-align : center;
+        position   : relative;
+        transform  : none;
+    }
+
+    #explications .button {
+        margin-top : -1em;
+    }
+
+    #explications #discover {
+        margin-top : 3em;
+    }
+
+    #explications > .description {
+        width : 70%;
+    }
+
+    #main-footer #sitemap {
+        flex-direction : column;
+    }
+
+    #main-footer #sitemap #navigation,
+    #main-footer #sitemap #legal {
+        flex-direction  : row;
+        justify-content : space-around;
+    }
+
+    #main-footer #sitemap #navigation a,
+    #main-footer #sitemap #legal a {
+        margin-right : 0;
+    }
+
+    #main-footer #social {
+        align-self : center;
+    }
+
+    #quote-block {
+        background-image : url("../img/joueurs.png");
+    }
+
+    #quote-block blockquote {
+        color            : var(--white);
+        margin           : 0;
+        padding          : 3em;
+        background-color : rgba(0, 0, 0, .4);
+    }
+
+    #quote-block img {
+        display : none;
+    }
+
+    #pari-perso .two-columns {
+        display        : flex;
+        flex-direction : column;
+        margin-top     : 3em;
+    }
+
+    #pari-perso .button {
+        margin-top : 2em;
+    }
+
+    #pari-perso {
+        padding-bottom : 2em;
+    }
+}
+
+@media (max-width : 680px) {
+
+    .button {
+        width : 100%;
+        text-align: center;
+    }
+
+    nav .button {
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+
+    #explications #what-to-do img {
+        display : none;
+    }
+
+    #explications #what-to-do section .content {
+        margin-left : 0;
+    }
+
+    #explications #what-to-do {
+        grid-gap : 1em;
+    }
+
+    #explications > .description {
+        margin-bottom : 2.5em;
+        width         : 85%;
+    }
+
+    #explications #what-to-do .vertical-side {
+        margin-top: -1em;
+    }
+
+    #explications .button {
+        margin-top: -3em;
+        width: 90%;
+    }
+
+    #explications #discover hr {
+        margin-bottom: 0;
+    }
+
+    #pari-perso {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    #pari-perso {
+        background-image: linear-gradient(to top, #2F2359, #4C3991);
+    }
+
+    #pari-perso .flex-divider {
+        margin: 0 0 0 1em;
+    }
+}

@@ -1,0 +1,77 @@
+@import "_colors.css";
+
+html {
+    font-family : Poppins, sans-serif;
+    font-weight : 500;
+    font-size   : 18px;
+}
+
+button {
+    outline : none;
+}
+
+a {
+    color           : inherit;
+    text-decoration : none;
+}
+
+.flex-start-self {
+    align-self : flex-start;
+}
+
+.side-auto-margins {
+    margin-right : auto;
+    margin-left  : auto;
+}
+
+.flex-divider {
+    margin : 0 auto;
+}
+
+.button {
+
+    background-color : var(--purple);
+    border-radius    : 3em;
+    color            : var(--white);
+    padding          : .7em 1.5em;
+    box-sizing       : border-box;
+    display          : inline-block;
+    width            : -moz-fit-content;
+    width            : fit-content;
+}
+
+.dot-after:after {
+    box-sizing       : border-box;
+    height           : .5em;
+    width            : .5em;
+    border-radius    : 1em;
+    vertical-align   : .125em;
+    content          : '';
+    background-color : var(--purple);
+    display          : inline-block;
+    margin-left      : .25em;
+}
+
+.logo {
+    text-transform : uppercase;
+    color          : var(--white);
+    font-weight    : 800;
+    font-size      : 1.5em;
+    letter-spacing : .2em;
+}
+
+.as-block {
+    display : block !important;
+}
+
+hr {
+    border           : 0;
+    height           : 2px;
+    width            : 250px;
+    background-color : var(--purple);
+    margin           : 0;
+}
+
+.splide__pagination {
+    padding: 0;
+}

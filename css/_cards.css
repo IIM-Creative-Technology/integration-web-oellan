@@ -1,0 +1,71 @@
+.card {
+
+    width          : 500px;
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    border-radius  : 10px;
+    box-shadow     : 1px 10px 16px 1px rgba(98, 98, 98, 0.19);
+    padding: 2em 1.1em;
+    box-sizing: border-box;
+    margin-right: 1em;
+}
+
+.card .logo {
+
+    display : block;
+    /*noinspection CssInvalidPropertyValue*/
+    height  : -moz-fit-content;
+    height  : fit-content;
+}
+.card .content {
+    padding-left: 2em;
+}
+
+.card .content .tag {
+
+    background-color : var(--purple-light);
+    color            : var(--white);
+    font-size        : .65em;
+    font-weight      : 400;
+    padding          : .1em 1.5em;
+    border-radius    : 1em;
+}
+
+.card .content .title {
+
+    font-size   : 1.2em;
+    margin      : .5em 0 .15em;
+    font-weight : 600;
+}
+
+.card .content .subtitle {
+
+    font-size: .9em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.card .content .groups {
+    display: flex;
+    align-items: center;
+}
+
+.card .content .groups img {
+
+    height: 1.7em;
+    border-radius: 1em;
+    background-color: white;
+}
+
+.card .content .groups img:not(:first-child) {
+
+    margin-left: -.8em;
+}
+
+.card .content .groups .in {
+    margin-left: 1em;
+    color: var(--grey);
+    font-size: .91em;
+    font-weight: 300;
+}

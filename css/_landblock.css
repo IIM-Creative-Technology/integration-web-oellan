@@ -1,0 +1,43 @@
+#landblock {
+
+    background-image    : url("../img/header.png"), linear-gradient(to bottom right, var(--gradient-dark), var(--gradient-light));
+    background-repeat   : no-repeat;
+    background-position : right 70%;
+    color               : var(--white);
+    position            : relative;
+    height              : 100vh;
+}
+
+#landblock:after {
+
+    background-image : url("../img/down-arrow.png");
+    height           : 48px;
+    width            : 48px;
+    position         : absolute;
+    display          : block;
+    content          : '';
+    bottom           : 1.75em;
+    left             : calc(50% - 24px);
+}
+
+#landblock .content {
+
+    width           : 35%;
+    margin-left     : 10em;
+    display         : flex;
+    flex-direction  : column;
+    height          : 100%;
+    justify-content : center;
+    margin-top      : -4em;
+}
+
+#landblock .content h1 {
+    margin      : 0;
+    font-weight : 800;
+    font-size   : 2.5em;
+}
+
+#landblock .content p {
+    margin      : 2em 0;
+    font-weight : 400;
+}

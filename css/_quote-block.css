@@ -1,0 +1,35 @@
+#quote-block {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#quote-block img {
+    height: 100%;
+    flex-shrink: 0;
+    width: 45%;
+}
+
+#quote-block blockquote:first-letter {
+    float: left;
+    font-size: 3.2em;
+    line-height: 1;
+}
+
+#quote-block blockquote {
+
+    background-image: url("../img/quote.png");
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+    padding: 1.5em 4em;
+    font-size: 1.27em;
+}
+
+#quote-block blockquote footer {
+
+    color: var(--grey);
+    font-size: .7em;
+    font-weight: 400;
+    margin-top: 1em;
+}
